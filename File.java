@@ -13,6 +13,9 @@ public class EncryptDecryptSystem {
     static class CaesarCipher implements EncryptionStrategy {
         private int shift = 3;
 
+
+        
+
         public String encrypt(String text) {
             StringBuilder result = new StringBuilder();
             for (char c : text.toCharArray()) {
